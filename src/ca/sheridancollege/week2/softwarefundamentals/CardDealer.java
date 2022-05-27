@@ -8,7 +8,7 @@ package ca.sheridancollege.week2.softwarefundamentals;
  * The class where we create Cards
  * @author dancye, 2019
  */
-public class CardDealer 
+public class CardDealer
 {
     public static void main(String[] args)
     {
@@ -17,5 +17,7 @@ public class CardDealer
         Card jackSpade = new Card ("Diamonds", 11);
         System.out.println(getSuit);
         System.out.println(getValue);
+        
+        Card twoClubs = new Card ("Clubs", 2);
     }
 }
